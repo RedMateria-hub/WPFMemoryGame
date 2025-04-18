@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Jerry",
+    "Password": "pass",
+    "ProfilePicture": "pack://siteoforigin:,,,/Resources/ProfilePics/JerryJackson.png",
+    "GamesWon": 5,
+    "GamesPlayed": 7
+  },
+  {
+    "Name": "Waluigi",
+    "Password": "wah",
+    "ProfilePicture": "pack://siteoforigin:,,,/Resources/ProfilePics/Waluigi.png",
+    "GamesWon": 4,
+    "GamesPlayed": 6
+  },
+  {
+    "Name": "myst",
+    "Password": "aaa",
+    "ProfilePicture": "pack://siteoforigin:,,,/Resources/ProfilePics/QMark.png",
+    "GamesWon": 1,
+    "GamesPlayed": 1
+  },
+  {
+    "Name": "Myst2",
+    "Password": "mys",
+    "ProfilePicture": "pack://siteoforigin:,,,/Resources/ProfilePics/QMark.png",
+    "GamesWon": 0,
+    "GamesPlayed": 0
+  }
+]

@@ -1,0 +1,47 @@
+﻿<Window x:Class="MemoryGame.Views.Game"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MemoryGame.Views"
+        xmlns:vm="clr-namespace:MemoryGame.ViewModels"
+        mc:Ignorable="d"
+        Title="Game" Height="450" Width="800">
+    <Grid Background="#FFF0F0F0">
+        
+        <Menu Margin="0,0,0,389">
+            <MenuItem Header="Game">
+                <MenuItem Header="New Game" Click="Command_StartGame"/>
+                <MenuItem Header="Save Game" Click="Command_SaveGame"/>
+                <MenuItem Header="Load Game" Click="Command_LoadGame"/>
+                <MenuItem Header="Stats" Click="Command_Stats"/>
+            </MenuItem>
+            <MenuItem Header="Help">
+                <MenuItem Header="About" Click="Command_About"/>
+            </MenuItem>
+        </Menu>
+                <UniformGrid Margin="0,63,0,0">
+            <ItemsControl ItemsSource="{Binding Cards}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Rows="4" Columns="4"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Command="{Binding DataContext.FlipCardCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                                    CommandParameter="{Binding}"
+                                    Background="Transparent" BorderThickness="0" FocusVisualStyle="{x:Null}">
+                            <Image Source="{Binding DisplayedImage}" Stretch="Uniform"/>
+                        </Button>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </UniformGrid>
+        <TextBlock Text="{Binding ElapsedTime}" 
+            FontSize="12" 
+            Foreground="Black" 
+            HorizontalAlignment="Center" 
+            Margin="0,26,0,371" Width="176"/>
+    </Grid>
+</Window>

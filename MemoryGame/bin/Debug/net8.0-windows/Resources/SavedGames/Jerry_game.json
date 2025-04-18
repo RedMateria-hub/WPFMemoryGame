@@ -1,0 +1,104 @@
+{
+  "ActiveUser": "Jerry",
+  "Cards": [
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\tortoise.jpg",
+      "ID": 1,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\hamster.jpg",
+      "ID": 0,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\fish.jpg",
+      "ID": 2,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\horse.jpg",
+      "ID": 4,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\pidgeon.jpg",
+      "ID": 6,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\fish.jpg",
+      "ID": 2,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\horse.jpg",
+      "ID": 4,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\parrot.jpg",
+      "ID": 3,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\cat.jpg",
+      "ID": 5,
+      "IsFlipped": true,
+      "DisplayedImage": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\cat.jpg"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\cat.jpg",
+      "ID": 5,
+      "IsFlipped": true,
+      "DisplayedImage": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\cat.jpg"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\pidgeon.jpg",
+      "ID": 6,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\parrot.jpg",
+      "ID": 3,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\dog.png",
+      "ID": 7,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\tortoise.jpg",
+      "ID": 1,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\dog.png",
+      "ID": 7,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    },
+    {
+      "ImagePath": "C:\\Users\\LENOVO\\source\\repos\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Resources\\GameCards\\hamster.jpg",
+      "ID": 0,
+      "IsFlipped": false,
+      "DisplayedImage": "pack://siteoforigin:,,,/Resources/GameCards/QMark.png"
+    }
+  ],
+  "RemainingTime": 94,
+  "FirstFlippedCard": null,
+  "SecondFlippedCard": null
+}
